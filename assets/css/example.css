@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono:400,500");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: 15px/1.5 "Roboto Mono", Helvetica, sans-serif;
+    color: #ebebea;
+}
+
+body {
+    background-color: #222222;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    padding: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+}
+
+.main section {
+    padding-top: 12px;
+}
+
+.main section:nth-child(1) {
+    width: 20%;
+    height: 100%;
+}
+
+.main section:nth-child(3) {
+    width: auto;
+    height: 100%;
+}
+
+.main section:nth-child(2) {
+    width: 100%;
+    height: 100%;
+    margin: 0px 20px;
+}
+
+.left-side {
+    padding-top: 92.5px !important;
+}
+
+.left-side button {
+    width: 100%;
+    padding: 8px;
+    font-size: 18px;
+    text-align: left;
+}
+
+.middle-side {
+    overflow: hidden;
+}
+
+.middle-side h1 {
+    text-align: center;
+    font-size: 35px;
+}
+
+
+.middle-side .article {
+    padding: 20px 40px;
+    text-align: justify;
+    text-indent: 20px;
+    line-height: 1.5;
+    overflow: auto;
+    height: 100%;
+}
+
+.middle-side .article::-webkit-scrollbar {
+    width: 5px;
+}
+
+.middle-side .article::-webkit-scrollbar-thumb {
+    background: rgb(139, 138, 138);
+    border-radius: 10px;
+}
+
+/* .left-side button:hover{
+    background-color: rgb(65, 64, 64);
+} */
+
+.right-side {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.right-side .social-media a {
+    display: block;
+    padding: 10px;
+    text-align: left;
+}
+
+.br {
+    border: 1px solid red;
+}
